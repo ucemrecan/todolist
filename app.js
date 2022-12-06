@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const _ = require("lodash");
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // create database
 // connect mongoose
